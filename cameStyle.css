@@ -1,0 +1,1341 @@
+/*                                           My First Website!!                                           */
+* {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+/*                                            Primary_Container                                            */
+#primary_container1 {
+  width: 100%;
+  height: 52px;
+  background-color: #000000;
+  display: grid;
+  align-items: center;
+}
+
+/*                                         Primary_central_Container                                        */
+#primary_central_container {
+  width: 94%;
+  height: 21px;
+  margin-top: 15px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: center;
+}
+
+/*                                         columns_Primary_Container                                        */
+#column_1 {
+  width: 261.42px;
+  height: 19px;
+  font-family: poppins;
+  font-size: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#column1_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+#column1_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 9px;
+  margin-left: 20px;
+}
+
+#column2 {
+  border-radius: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#column3 {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 10px;
+}
+
+/*                                           Buttons_Primary_Container                                      */
+.anc {
+  color: white;
+  background-color: #00b0ed;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#anc1 {
+  height: 17px;
+  width: 65px;
+  color: white;
+}
+
+#anc2 {
+  height: 17px;
+  width: 160px;
+}
+
+#anc3 {
+  height: 17px;
+  width: 250px;
+}
+
+/*                                      Primary_container part is done here                                     */
+
+
+/*                                              secondary_container                                             */
+#secondary_container {
+  display: flex;
+}
+
+/*                                              secondary_main_container                                        */
+#secondary_main_container {
+  width:100%;
+  margin:auto;
+  height: 70px;
+  padding: 26px 0px 26px 0px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+/*                                              secondary_left_container                                           */
+#secondary_left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 50px;
+}
+#cameLogo {
+  height: 52px;
+  width: 61px;
+  margin-right: 50px;
+}
+
+/*                                              secondary_Mid_container                                           */
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:40px;
+}
+
+#menu ul{
+  list-style: none;
+  position:relative;
+  margin:0;
+  padding:0;
+  float: left;
+}
+#menu ul a{
+  color:black;
+  text-decoration: none;
+  padding:0 12px;
+  display:block;
+  font-weight:500;
+  font-size:18px;
+  font-family: Poppins;
+  line-height:21px;
+  
+}
+#menu ul li {
+  float:left;
+  position: relative;
+  margin:0;
+  padding: 0;
+}
+#menu ul ul{
+  position:absolute;
+  background: #00B0ED;
+  top:100%;
+  left:0;
+  display:none;
+  z-index:1;
+}
+#menu ul ul li{
+  float:none;
+  width:150px;
+  border-left: 3px solid maroon;
+  border-bottom:1px solid black;
+}
+#menu ul ul ul{
+  top:0px;
+  left:100%;
+}
+#menu ul li:hover > ul{
+  display:block;
+}
+
+
+
+/*                                              secondary_right_container                                           */
+#secondary_right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+
+
+}
+#secondary_right_anchor {
+  width: 77px;
+  height: 40px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  color: #202020;
+  border-radius: 4px;
+  border: 2px solid #00B0ED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: rgba(0, 153, 255, 0.979);
+}
+/*                                        secondary_container part done here!!                                      */
+
+
+/*                                            3rd Banner_container                                                  */
+#banner_container {
+  width: 100%;
+  height: 844px;
+}
+
+#banner_main_container {
+  width: 100%;
+  height: 844px;
+  position: absolute;
+}
+
+#banner {
+  width: 100%;
+  height: 844px;
+}
+
+/*                                              Banner's_center_part                                            */
+#banner_central_div {
+  position: relative;
+  width: 600px;
+  height: 420px;
+  left: 380px;
+  top: 150px;
+}
+
+/*                                              Banner's_text_part                                           */
+#banner_text1 {
+  height: 60px;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding-right: 40px;
+}
+
+#banner_text2_left {
+  height: 120px;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: Poppins;
+  color: #ffffff;
+  display: inline;
+}
+#banner_text2_right {
+  height: 120px;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: Poppins;
+  color: #009FE3;
+  display: inline;
+  margin-left:30px;
+
+}
+
+#banner_text3 {
+  height: 114px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Poppins;
+  color: #ffffff;
+  text-align: center;
+}
+
+/*                                              banner's_button_part                                           */
+#banner_buttons {
+  width: 549px;
+  height: 126px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#banner_btn1 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  width: 187px;
+  height: 59px;
+  border-radius: 4px;
+  padding: 16px 28px 16px 28px;
+  margin-right: 25px;
+  color: #ffffff;
+  background-color: #009FE3;
+  text-decoration: none;
+}
+
+#banner_btn2 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  width: 181px;
+  height: 59px;
+  border-radius: 4px;
+  padding: 16px 30px 16px 30px;
+  color: #009FE3;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+/*                                         Banner_container done here!!                                         */
+
+
+/*                                                Products_container                                               */
+#products_container {
+  width: 100%;
+  height: 512px;
+  display: grid;
+}
+
+#products_main_container {
+  width: 81%;
+  height: 512px;
+  margin: auto;
+  position: relative;
+  top: -150px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #ffffff;
+}
+
+.box {
+  width: 262px;
+  height: 256px;
+  border-right: 1px solid #E8E8E8;
+}
+
+#box1 {
+  background-color: #00b0ed;
+  border-right: 1px solid #00b0ed;
+  border-bottom: 1px solid #00b0ed;
+}
+
+#box2 {
+  border-bottom: 1px solid #E8E8E8;
+}
+
+#box3 {
+  border-bottom: 1px solid #E8E8E8;
+}
+
+#box4 {
+  border-bottom: 1px solid #E8E8E8;
+  border-right: 0px;
+}
+
+#box8 {
+  border-right: 0px;
+}
+
+#box1_main_container {
+  width: 179px;
+  height: 150px;
+  margin-left: 45px;
+  margin-top: 50px;
+}
+
+#box1_upper {
+  width: 110px;
+  height: 100px;
+  margin-left: 35px;
+}
+
+#box1_Lower {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.box_main_container {
+  width: 179px;
+  height: 150px;
+  margin-left: 45px;
+  margin-top: 50px;
+}
+
+.box_upper {
+  width: 110px;
+  height: 100px;
+  margin-left: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.box_Lower {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 14px;
+  text-align: center;
+  color: #020202;
+}
+
+/*                                      Products_container id done here                                       */
+
+/*                                        Popular_Products_container                                           */
+
+.popular_products {
+  width: 90%;
+  height: 421px;
+  display: grid;
+  margin: auto;
+}
+
+/*                                                upper_div                                                    */
+#uppr_div {
+  width: 694px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+}
+
+#uppr_left {
+  width: 567px;
+  height: 48px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 32px;
+  color: #000000;
+}
+
+#uppr_right {
+  text-decoration: none;
+  width: 103px;
+  height: 24px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  color: #009FE3;
+  margin-left: 20px;
+}
+
+/*                                        upper_div is done here                                           */
+
+
+/*                                                Lower_div                                                    */
+#Lowr_div {
+  height: 240px;
+  display: flex;
+}
+
+#Lowr_left {
+  width: 380px;
+  height: 240px;
+  margin-right: 10px;
+  display: flex;
+  border-radius: 12px;
+  border: 1px solid #3e3e3e;
+}
+
+.Lowr_left1 {
+  width: 190px;
+  height: 240px;
+}
+
+.text1 {
+  width: 170px;
+  height: 21px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  margin-left: 10px;
+  margin-top: 45px;
+
+}
+
+.text2 {
+  width: 115px;
+  height: 33px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  color: #3e3e3e;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.btn {
+  width: 120px;
+  height: 30px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 12px;
+  color: #ffffff;
+  margin-left: 10px;
+  margin-top: 30px;
+  border-radius: 4px;
+  background-color: #009fe3;
+}
+
+.Lowr_left2 {
+  width: 190px;
+  height: 240px;
+}
+
+.Lowr_img {
+  width: 186px;
+  height: 219px;
+
+}
+
+#Lowr_img1 {
+  width: 186px;
+  height: 219px;
+}
+
+.top_right_div {
+  width: 97px;
+  height: 29px;
+  border-radius: 0px 12px 0px 0px;
+  font-weight: 500;
+  font-family: Poppins;
+  font-size: 10px;
+  color: #ffffff;
+  background-color: #00b0ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 93px;
+}
+
+#Lowr_mid {
+  width: 380px;
+  height: 240px;
+  background-color: white;
+  margin-right: 10px;
+  display: flex;
+  border-radius: 12px;
+  border: 1px solid #3e3e3e;
+}
+
+#Lowr_img2 {
+  width: 186px;
+  height: 219px;
+}
+
+#Lowr_right {
+  width: 380px;
+  height: 240px;
+  margin-right: 10px;
+  display: flex;
+  border-radius: 12px;
+  border: 1px solid #3e3e3e;
+
+}
+
+#Lowr_img3 {
+  width: 112px;
+  height: 135px;
+  margin-top: 40px;
+  margin-left: 45px;
+}
+
+/*                                  Popular_Products_container is done here!!                                  */
+
+/*                                               We_Work_On                                                  */
+
+#we_work_on {
+  width: 95%;
+  height: 1000px;
+  margin: auto;
+}
+
+#uppr_work {
+  height: 500px;
+  display: flex;
+}
+
+#work1 {
+  width: 51%;
+  height: 500px;
+}
+
+#uppr_img {
+  width: 100%;
+  height: 500px;
+}
+
+#work2 {
+  width: 550px;
+  height: 393px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+
+#Lowr_work {
+  height: 500px;
+  display: flex;
+}
+
+#work3 {
+  width: 550px;
+  height: 393px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+#work4 {
+  width: 51%;
+  height: 500px;
+  margin-left: 95px;
+}
+
+#Lowr_img {
+  width: 100%;
+  height: 500px;
+}
+
+.div1 {
+  width: 112px;
+  height: 27px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+  color: #009FE3;
+}
+
+.div2 {
+  height: 78px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 26px;
+  color: black;
+  margin-top: 20px;
+}
+
+.div3 {
+  height: 147px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+  margin-top: 28px;
+}
+
+.div4 {
+  margin-top: 70px;
+}
+
+.work_btn {
+  width: 191px;
+  height: 57px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 4px;
+  padding: 15px 30px 15px 30px;
+  color: #ffffff;
+  background-color: #009FE3;
+  margin-left: 0px;
+  text-decoration: none;
+}
+
+/*                                       We_Work_On part is done here!!                                          */
+
+/*                                       what_we_do part starts here !!                                          */
+#what_we_do {
+  width: 95%;
+  height: 852px;
+  margin: auto;
+  margin-top: 102px;
+}
+
+
+#uppr1 {
+  height: 102px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 32px;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#middle1 {
+  height: 494px;
+  background-color: #00b0ed;
+}
+
+#mid_img {
+  width: 100%;
+  height: 494px;
+}
+
+
+#Lowr1 {
+  width: 98.2%;
+  height: 256px;
+  display: flex;
+  /* margin-left:-15px; */
+}
+
+.Lowr {
+  width: 320px;
+  height: 256px;
+  margin: auto;
+}
+
+.Lowr_img {
+
+  position: absolute;
+  width: fit-content;
+  height: 256px;
+}
+
+#Lowr1_1_central_div {
+  position: relative;
+  margin-top: 70px;
+  margin-left: 57px;
+  width: 225px;
+  height: 115px;
+}
+
+#Lowr_central_uppr {
+  width: 46px;
+  height: 30px;
+  border-radius: 9px;
+  padding: 12px;
+  margin-left: 75px;
+  background-color: #FFFFFF;
+
+}
+
+#Lowr_central_Lowr {
+  width: 179px;
+  height: 42px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 25px;
+  margin-top: 19px;
+}
+
+#Lowr_central_uppr_img {
+  margin-top: -1px;
+}
+
+/*                                     what_we_do part is done here !!                                          */
+
+/*                                   Popular product part starts here !!                                         */
+#popular_product {
+  width: 95%;
+  margin: auto;
+}
+
+/*                                        upper_product_div starts here!!                                       */
+#uppr_product_div {
+  width: 100%;
+  height: 48px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+#uppr_left_div {
+  display: flex;
+}
+
+#popular_p1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 32px;
+  color: #000000;
+}
+
+#popular_p2 {
+  width: 150px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  color: #009FE3;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+#uppr_right_div {
+  display: flex;
+  column-gap: 24px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.popular_a {
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 4px 10px 4px 10px;
+  color: black;
+  text-decoration: none;
+}
+
+#popular_a1 {
+  color: #ffffff;
+  background-color: #00b0ed;
+}
+
+/*                                        upper_product_div is done here!!                                       */
+
+/*                                        Lower_product_div starts here!!                                        */
+#Lowr_product_div {
+  width: 100%;
+  margin-top: 70px;
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+/*                                            Product 1                                                          */
+.popular_product_1 {
+  border-radius: 12px;
+  position: relative;
+  padding: 60px;
+  border: 1px solid #3e3e3e;
+}
+
+.popular_product_1 .abc {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: grid;
+  row-gap: 5px;
+}
+
+.abc img {
+  background: #000;
+  padding: 5px;
+}
+
+#popular_top_right_div2 {
+  width: 38.11px;
+  height: 39.11px;
+  margin-top: 6px;
+  margin-left: 321.89px;
+}
+
+.popular_product1_img {
+  height: 250px;
+  width: 200px;
+}
+
+.popular_product1_text {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  color: #009FE3;
+}
+
+.popular_product1_a {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 4px 16px 4px 16px;
+  color: #FFFFFF;
+  background-color: #009FE3;
+  text-decoration: none;
+}
+
+/*                                       Product 1 is done here!!                                        */
+
+#popular_product_2 {
+  width: 365px;
+  margin-left: 10px;
+  border-radius: 12px;
+}
+
+#popular_product_3 {
+  width: 365px;
+  margin-left: 10px;
+  border-radius: 12px;
+}
+
+/*                                        Request_a_quote starts here!!                                      */
+#request_a_quote {
+  height: 761px;
+  margin-top: 100px;
+}
+
+#request_uppr {
+  height: 219px;
+  background: #181b18;
+  display: flex;
+  align-items: center
+}
+
+#request_uppr_para {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 28px;
+  margin-left: 42px;
+}
+
+/*                                        request_uppr_div is done here                                        */
+
+/*                                              request_Lowr_div                                               */
+#request_Lowr {
+  width: 824.57px;
+  height: 520px;
+  margin-top: 22px;
+  margin-left: 42.03px;
+  display: flex;
+}
+
+#request_Lowr_left {
+  width: 401px;
+  height: 497px;
+}
+
+#request_Lowr_right {
+  width: 401px;
+  height: 497px;
+  margin-left: 10px;
+}
+
+.request_img {
+  width: 401px;
+  height: 244px;
+}
+
+.request_text1 {
+  width: 401px;
+  height: 60px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 26px;
+  text-align: left;
+  background: white;
+}
+
+.request_text2 {
+  width: 401px;
+  height: 149px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  color: #010101;
+  margin-top: 26px;
+  text-align: left;
+  background: white;
+}
+
+/*                                       request_Lowr_div is done here!!                                           */
+
+
+#request_right_uppr {
+  width: 450px;
+  height: 219px;
+  margin-top: -761px;
+  margin-left: 884.61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00B0ED;
+}
+
+#request_right_uppr_parent {
+  width: 350px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#right_side {
+  border-left: 2px solid white;
+}
+
+#request_right_uppr_Logo {
+  margin-right: 30px;
+}
+
+#right_uppr_text1 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+#right_uppr_text2 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 28px;
+  margin-left: 10px;
+}
+
+/*                                               request_right_Lowr                                             */
+#request_right_Lowr {
+  width: 450px;
+  height: 542px;
+  margin-left: 884.61px;
+  background: #00B0ED;
+  border-radius: 0 0 18px 18px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.request_right_Lowr_parent {
+  width: 400px;
+  height: 449.9px;
+  border-radius: 4px;
+  border: 1px;
+  margin-left: 6px;
+  margin-top: 22px;
+}
+
+.text_style {
+  width: 95%;
+  height: 50.52px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 5px;
+  border: 1px solid #ffffff;
+  background-color: #00B0ED;
+}
+
+#text4_style {
+  width: 95%;
+  height: 127.32px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 5px;
+  border: 1px solid #ffffff;
+  background-color: #00B0ED;
+
+}
+
+#submit_style {
+  width: 95%;
+  height: 51px;
+  border-radius: 4px;
+  padding: 12px 26px 12px 26px;
+  background-color: #000000;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.text_style::placeholder {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+
+}
+
+#text4_style::placeholder {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/*                                  request_right_Lowr is done here!!                                         */
+
+/*                                     Latest_news starts here!!                                              */
+#latest_news {
+  height: 407px;
+  margin-top: 60px;
+}
+
+#latest_uppr {
+  height: 48px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+}
+
+#latest_uppr_heading {
+  color: black;
+}
+
+#latest_Lowr {
+  height: 294px;
+  margin-top: 65px;
+  display: flex;
+}
+
+.Lowr_divs {
+  width: 470px;
+  height: 224px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.Lowr_div_left {
+  width: 200px;
+  height: 223.5px;
+}
+
+.Lowr_div_right {
+  width: 226px;
+  height: 224px;
+  margin-left: 14px;
+}
+
+.Lowr_div_right_text1 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 12px;
+  color: #A7A7A7;
+  margin-top: 35px;
+}
+
+.Lowr_div_right_heading {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  color: #181818;
+  margin-top: 13px;
+
+}
+
+.Lowr_div_right_text2 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 10px;
+  color: #3E3E3E;
+  margin-top: 13px;
+  margin-bottom: 13px;
+
+}
+
+.Lowr_div_right_link {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14px;
+  color: #00B0ED;
+  margin-bottom: 20px;
+
+}
+
+/*                                     Latest_news is done here!!                                             */
+
+/*                                        Footer starts here!!                                                */
+#footer {
+  margin-top: 60px;
+  height: 671px;
+  background-color: yellow;
+}
+
+/*                                          Footer's uppr part                                                */
+#uppr {
+  height: 211px;
+  Background: #181B18;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#upper_left {
+  width: 730.51px;
+  height: 120px;
+  Font-family: Poppins;
+  Font-weight: 700;
+  Font-size: 40px;
+  color: #ffffff;
+}
+
+#upper_right {
+  width: 221px;
+  height: 67px;
+  Font-family: Poppins;
+  Font-weight: 600;
+  Font-size: 18px;
+  color: #ffffff;
+  background: #009FE3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+
+/*                                          Footer's mid part                                                 */
+#mid {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86)), url(/image/Footer_bg.png);
+  background-size: cover;
+  height: 425px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+/*                                           Mid's part 1                                                     */
+#mid_part1 {
+  width: 365px;
+  height: 265px;
+}
+
+#part1_Logo {
+  width: 120px;
+  height: 105px;
+  margin-bottom: 30px;
+}
+
+#part1_text {
+  width: 365px;
+  height: 126px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/*                                           Mid's part 2                                                   */
+#mid_part2 {
+  width: 167px;
+  height: 253px;
+}
+
+.part2_anchor {
+  width: 166px;
+  height: 24px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 14px;
+}
+
+#part2_anchor1 {
+  font-weight: 600;
+}
+
+#part2_anchor2 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #009FE3;
+}
+
+/*                                           Mid's part 3                                                   */
+#mid_part3 {
+  width: 167px;
+  height: 253px;
+}
+
+/*                                           Mid's part 4                                                   */
+#mid_part4 {
+  width: 370.52px;
+  height: 242.71px;
+}
+
+#part4_para1 {
+  Font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 45px;
+}
+
+#part4_para2 {
+  Font-family: Poppins;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+#part4_input1 {
+  Font-family: Poppins;
+  font-weight: 400;
+  font-size: 12px;
+  width: 266.97px;
+  height: 46px;
+  background: #ffffff;
+  border: 0;
+  margin-bottom: 25px;
+}
+
+#part4_input2 {
+  Font-family: Poppins;
+  font-weight: 400;
+  font-size: 12px;
+  width: 103.55px;
+  height: 46px;
+  background: #3BA7E8;
+  border: 0;
+}
+
+#part4_icons {
+  width: 214.86px;
+  height: 41.71px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons_div {
+  width: 41.71px;
+  height: 41.71px;
+  background: #3BA7E8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons_div:hover{
+  background-color: maroon;
+}
+
+/*                                          Footer's Lowr part                                                 */
+#Lowr {
+  height: 47px;
+  background: #009FE3;
+  Font-family: Poppins;
+  Font-weight: 500;
+  Font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 25px;
+}
+
+/*                                          Footer is done here!!                                              */
